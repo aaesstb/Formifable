@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="FormiFable — playful 3D-printed toys for children."
+    >
+
+    <title>FormiFable</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <script
+        src="script.js"
+        defer
+    ></script>
+</head>
+
+
+<body>
+
+    <!-- Obere Informationsleiste -->
+
+    <div
+        class="announcement"
+        data-i18n="announcement"
+    >
+        Free shipping from €50 · Made in small batches
+    </div>
+
+
+    <!-- Seitenkopf -->
+
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <a
+                class="logo"
+                href="index.html"
+                aria-label="FormiFable Home"
+            >
+                <img
+                    src="images/logo-transparent.png"
+                    alt="FormiFable logo"
+                >
+            </a>
+
+
+            <nav class="main-navigation">
+
+                <a
+                    href="#products"
+                    data-i18n="navigation.shop"
+                >
+                    Shop
+                </a>
+
+                <a
+                    href="#about"
+                    data-i18n="navigation.about"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#footer"
+                    data-i18n="navigation.contact"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <div class="header-actions">
+
+                <div class="language-switcher">
+
+                    <button
+                        class="language-button active"
+                        type="button"
+                        data-language="en"
+                    >
+                        EN
+                    </button>
+
+                    <button
+                        class="language-button"
+                        type="button"
+                        data-language="de"
+                    >
+                        DE
+                    </button>
+
+                </div>
+
+
+                <button
+                    class="cart-button"
+                    id="cartButton"
+                    type="button"
+                >
+                    <span
+                        class="cart-button-text"
+                        data-i18n="cart.button"
+                    >
+                        Cart
+                    </span>
+
+                    <span
+                        class="cart-count"
+                        id="cartCount"
+                    >
+                        0
+                    </span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Hauptbereich -->
+
+        <section class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p
+                        class="eyebrow"
+                        data-i18n="hero.eyebrow"
+                    >
+                        PLAYFUL 3D-PRINTED TOYS
+                    </p>
+
+
+                    <h1 data-i18n="hero.title">
+                        Little shapes. Big stories.
+                    </h1>
+
+
+                    <p
+                        class="hero-description"
+                        data-i18n="hero.description"
+                    >
+                        Colourful 3D-printed toys created for imagination,
+                        collecting and play.
+                    </p>
+
+
+                    <a
+                        class="primary-button hero-button"
+                        href="#products"
+                        data-i18n="hero.button"
+                    >
+                        Discover our toys
+                    </a>
+
+                </div>
+
+
+                <div class="hero-image-container">
+
+                    <div class="hero-circle hero-circle-mint"></div>
+
+                    <div class="hero-circle hero-circle-coral"></div>
+
+                    <img
+                        class="hero-image"
+                        src="images/dragon-transparent.png"
+                        alt="FormiFable 3D-printed toy"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Kategorien -->
+
+        <section class="categories">
+
+            <div class="container category-grid">
+
+                <a
+                    class="category-card"
+                    href="#products"
+                >
+                    <span class="icon-wrapper">
+                        <img
+                            class="category-icon"
+                            src="images/icons/FormiFable_icons_only/star.svg"
+                            alt=""
+                            aria-hidden="true"
+                        >
+                    </span>
+
+                    <span data-i18n="categories.animals">
+                        Animals
+                    </span>
+                </a>
+
+
+                <a
+                    class="category-card"
+                    href="#products"
+                >
+                    <span class="icon-wrapper">
+                        <img
+                            class="category-icon"
+                            src="images/icons/FormiFable_icons_only/puzzle.svg"
+                            alt=""
+                            aria-hidden="true"
+                        >
+                    </span>
+
+                    <span data-i18n="categories.fidget">
+                        Fidget toys
+                    </span>
+                </a>
+
+
+                <a
+                    class="category-card"
+                    href="#products"
+                >
+                    <span class="icon-wrapper">
+                        <img
+                            class="category-icon"
+                            src="images/icons/FormiFable_icons_only/gift.svg"
+                            alt=""
+                            aria-hidden="true"
+                        >
+                    </span>
+
+                    <span data-i18n="categories.gifts">
+                        Small gifts
+                    </span>
+                </a>
+
+
+                <a
+                    class="category-card"
+                    href="#products"
+                >
+                    <span class="icon-wrapper">
+                        <img
+                            class="category-icon"
+                            src="images/icons/FormiFable_icons_only/sparkles.svg"
+                            alt=""
+                            aria-hidden="true"
+                        >
+                    </span>
+
+                    <span data-i18n="categories.new">
+                        New products
+                    </span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Produktliste -->
+
+        <section
+            class="products-section"
+            id="products"
+        >
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <p
+                            class="eyebrow"
+                            data-i18n="products.eyebrow"
+                        >
+                            OUR COLLECTION
+                        </p>
+
+
+                        <h2 data-i18n="products.title">
+                            Choose your new little friend
+                        </h2>
+
+                    </div>
+
+
+                    <p
+                        class="section-description"
+                        data-i18n="products.description"
+                    >
+                        Small toys, playful shapes and different colours.
+                    </p>
+
+                </div>
+
+
+                <div class="product-grid">
+
+                    <!-- Produkt 1 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-image-button"
+                            type="button"
+                            data-product-id="dragon"
+                        >
+
+                            <span
+                                class="product-badge"
+                                data-i18n="badges.new"
+                            >
+                                NEW
+                            </span>
+
+
+                            <img
+                                src="images/toy-dragon.jpg"
+                                alt="Flexi Dragon"
+                            >
+
+                        </button>
+
+
+                        <div class="product-card-content">
+
+                            <div class="product-card-heading">
+
+                                <h3 data-i18n="products.items.dragon.name">
+                                    Flexi Dragon
+                                </h3>
+
+                                <span class="product-price">
+                                    €24,90
+                                </span>
+
+                            </div>
+
+
+                            <p data-i18n="products.items.dragon.shortDescription">
+                                A flexible little dragon for playing and collecting.
+                            </p>
+
+
+                            <div class="colour-list">
+
+                                <span class="colour-dot mint"></span>
+
+                                <span class="colour-dot coral"></span>
+
+                                <span class="colour-dot graphite"></span>
+
+                            </div>
+
+
+                            <a
+                                class="product-button"
+                                href="product.html?id=dragon"
+                                data-i18n="buttons.viewProduct"
+                            >
+                                View product
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Produkt 2 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-image-button"
+                            type="button"
+                            data-product-id="dinosaur"
+                        >
+
+                            <img
+                                src="images/toy-dinosaur.jpeg"
+                                alt="Mini Dinosaur"
+                            >
+
+                        </button>
+
+
+                        <div class="product-card-content">
+
+                            <div class="product-card-heading">
+
+                                <h3 data-i18n="products.items.dinosaur.name">
+                                    Mini Dinosaur
+                                </h3>
+
+                                <span class="product-price">
+                                    €18,90
+                                </span>
+
+                            </div>
+
+
+                            <p data-i18n="products.items.dinosaur.shortDescription">
+                                A small movable dinosaur with playful details.
+                            </p>
+
+
+                            <div class="colour-list">
+
+                                <span class="colour-dot coral"></span>
+
+                                <span class="colour-dot mint"></span>
+
+                            </div>
+
+
+                            <a
+                                class="product-button"
+                                href="product.html?id=dinosaur"
+                                data-i18n="buttons.viewProduct"
+                            >
+                                View product
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Produkt 3 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-image-button"
+                            type="button"
+                            data-product-id="octopus"
+                        >
+
+                            <img
+                                src="images/toy-octopus.jpeg"
+                                alt="Flexi Octopus"
+                            >
+
+                        </button>
+
+
+                        <div class="product-card-content">
+
+                            <div class="product-card-heading">
+
+                                <h3 data-i18n="products.items.octopus.name">
+                                    Flexi Octopus
+                                </h3>
+
+                                <span class="product-price">
+                                    €21,90
+                                </span>
+
+                            </div>
+
+
+                            <p data-i18n="products.items.octopus.shortDescription">
+                                A friendly octopus with movable arms.
+                            </p>
+
+
+                            <div class="colour-list">
+
+                                <span class="colour-dot graphite"></span>
+
+                                <span class="colour-dot mint"></span>
+
+                                <span class="colour-dot coral"></span>
+
+                            </div>
+
+
+                            <a
+                                class="product-button"
+                                href="product.html?id=octopus"
+                                data-i18n="buttons.viewProduct"
+                            >
+                                View product
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Produkt 4 -->
+
+                    <article class="product-card">
+
+                        <button
+                            class="product-image-button"
+                            type="button"
+                            data-product-id="cube"
+                        >
+
+                            <span
+                                class="product-badge dark-badge"
+                                data-i18n="badges.soon"
+                            >
+                                SOON
+                            </span>
+
+
+                            <img
+                                src="images/toy-cube.jpg"
+                                alt="Shape Cube"
+                            >
+
+                        </button>
+
+
+                        <div class="product-card-content">
+
+                            <div class="product-card-heading">
+
+                                <h3 data-i18n="products.items.cube.name">
+                                    Shape Cube
+                                </h3>
+
+                                <span class="product-price">
+                                    €16,90
+                                </span>
+
+                            </div>
+
+
+                            <p data-i18n="products.items.cube.shortDescription">
+                                A compact toy with rotating shapes.
+                            </p>
+
+
+                            <div class="colour-list">
+
+                                <span class="colour-dot mint"></span>
+
+                                <span class="colour-dot coral"></span>
+
+                            </div>
+
+
+                            <a
+                                class="product-button"
+                                href="product.html?id=cube"
+                                data-i18n="buttons.viewProduct"
+                            >
+                                View product
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Informationen zum Shop -->
+
+        <section
+            class="about-section"
+            id="about"
+        >
+
+            <div class="container about-content">
+
+                <div class="about-text">
+
+                    <p
+                        class="eyebrow"
+                        data-i18n="about.eyebrow"
+                    >
+                        ABOUT FORMIFABLE
+                    </p>
+
+
+                    <h2 data-i18n="about.title">
+                        Made slowly. Played with endlessly.
+                    </h2>
+
+
+                    <p data-i18n="about.description">
+                        Our toys are created in small batches and checked
+                        individually before they are packed and shipped.
+                    </p>
+
+                </div>
+
+
+                <div class="about-features">
+
+                    <article class="about-feature">
+
+                        <span class="about-feature-icon icon-wrapper">
+                            <img
+                                class="category-icon"
+                                src="images/icons/FormiFable_icons_only/printer.svg"
+                                alt=""
+                                aria-hidden="true"
+                            >
+                        </span>
+
+                        <div>
+
+                            <h3 data-i18n="about.features.printed.title">
+                                3D printed
+                            </h3>
+
+                            <p data-i18n="about.features.printed.text">
+                                Produced in small quantities.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="about-feature">
+
+                        <span class="about-feature-icon icon-wrapper">
+                            <img
+                                class="category-icon"
+                                src="images/icons/FormiFable_icons_only/sparkles.svg"
+                                alt=""
+                                aria-hidden="true"
+                            >
+                        </span>
+
+                        <div>
+
+                            <h3 data-i18n="about.features.design.title">
+                                Playful design
+                            </h3>
+
+                            <p data-i18n="about.features.design.text">
+                                Designed to inspire imagination.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="about-feature">
+
+                        <span class="about-feature-icon icon-wrapper">
+                            <img
+                                class="category-icon"
+                                src="images/icons/FormiFable_icons_only/package.svg"
+                                alt=""
+                                aria-hidden="true"
+                            >
+                        </span>
+
+                        <div>
+
+                            <h3 data-i18n="about.features.packed.title">
+                                Packed with care
+                            </h3>
+
+                            <p data-i18n="about.features.packed.text">
+                                Every order is carefully checked.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Newsletter -->
+
+        <section class="newsletter">
+
+            <div class="container newsletter-content">
+
+                <div>
+
+                    <p
+                        class="eyebrow"
+                        data-i18n="newsletter.eyebrow"
+                    >
+                        FORMIFABLE NEWS
+                    </p>
+
+
+                    <h2 data-i18n="newsletter.title">
+                        New toys are coming
+                    </h2>
+
+
+                    <p data-i18n="newsletter.description">
+                        Receive news about new colours, toys and collections.
+                    </p>
+
+                </div>
+
+
+                <form
+                    class="newsletter-form"
+                    id="newsletterForm"
+                >
+
+                    <input
+                        id="emailInput"
+                        type="email"
+                        data-i18n-placeholder="newsletter.placeholder"
+                        placeholder="Your email address"
+                        required
+                    >
+
+
+                    <button
+                        class="primary-button"
+                        type="submit"
+                        data-i18n="newsletter.button"
+                    >
+                        Subscribe
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer
+        class="footer"
+        id="footer"
+    >
+
+        <div class="container footer-content">
+
+            <div>
+
+                <strong class="footer-logo">
+                    FormiFable
+                </strong>
+
+                <p data-i18n="footer.description">
+                    Playful 3D-printed toys made in small batches.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a
+                    href="#products"
+                    data-i18n="navigation.shop"
+                >
+                    Shop
+                </a>
+
+                <a
+                    href="#about"
+                    data-i18n="navigation.about"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#"
+                    data-i18n="footer.shipping"
+                >
+                    Shipping
+                </a>
+
+                <a
+                    href="#"
+                    data-i18n="footer.returns"
+                >
+                    Returns
+                </a>
+
+                <a
+                    href="#"
+                    data-i18n="footer.imprint"
+                >
+                    Imprint
+                </a>
+
+                <a
+                    href="#"
+                    data-i18n="footer.privacy"
+                >
+                    Privacy
+                </a>
+
+            </div>
+
+
+            <span data-i18n="footer.copyright">
+                © 2026 FormiFable. All rights reserved.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Produktmodal -->
+
+    <div
+        class="modal-overlay"
+        id="productModal"
+        aria-hidden="true"
+    >
+
+        <div
+            class="product-modal"
+            role="dialog"
+            aria-modal="true"
+        >
+
+            <button
+                class="modal-close-button"
+                id="closeModalButton"
+                type="button"
+                aria-label="Close"
+            >
+                <img
+                    class="close-icon"
+                    src="images/icons/FormiFable_icons_only/close.svg"
+                    alt=""
+                    aria-hidden="true"
+                >
+            </button>
+
+
+            <div class="modal-product-grid">
+
+                <div class="modal-image-container">
+
+                    <img
+                        id="modalProductImage"
+                        src="images/toy-dragon.jpg"
+                        alt=""
+                    >
+
+                </div>
+
+
+                <div class="modal-product-information">
+
+                    <p
+                        class="eyebrow"
+                        data-i18n="modal.category"
+                    >
+                        3D-PRINTED TOY
+                    </p>
+
+
+                    <h2 id="modalProductName">
+                        Flexi Dragon
+                    </h2>
+
+
+                    <p
+                        class="modal-description"
+                        id="modalProductDescription"
+                    >
+                        Product description
+                    </p>
+
+
+                    <p
+                        class="modal-details"
+                        id="modalProductDetails"
+                    >
+                        Detailed information about the product.
+                    </p>
+
+
+                    <strong
+                        class="modal-price"
+                        id="modalProductPrice"
+                    >
+                        €24,90
+                    </strong>
+
+
+                    <div class="modal-actions">
+
+                        <button
+                            class="primary-button"
+                            id="modalAddToCartButton"
+                            type="button"
+                            data-i18n="buttons.addToCart"
+                        >
+                            Add to cart
+                        </button>
+
+
+                        <a
+                            class="secondary-button"
+                            id="modalDetailsLink"
+                            href="product.html?id=dragon"
+                            data-i18n="buttons.viewDetails"
+                        >
+                            View details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Warenkorb -->
+
+    <div
+        class="modal-overlay cart-overlay"
+        id="cartModal"
+        aria-hidden="true"
+    >
+
+        <aside
+            class="cart-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="cartModalTitle"
+        >
+
+            <div class="cart-modal-header">
+
+                <div>
+
+                    <p class="eyebrow">
+                        FormiFable
+                    </p>
+
+                    <h2 id="cartModalTitle">
+                        Your cart
+                    </h2>
+
+                </div>
+
+
+                <button
+                    class="modal-close-button cart-close-button"
+                    id="closeCartButton"
+                    type="button"
+                    aria-label="Close cart"
+                >
+                    <img
+                        class="close-icon"
+                        src="images/icons/FormiFable_icons_only/close.svg"
+                        alt=""
+                        aria-hidden="true"
+                    >
+                </button>
+
+            </div>
+
+
+            <div
+                class="cart-items"
+                id="cartItems"
+            ></div>
+
+
+            <div
+                class="cart-empty"
+                id="cartEmpty"
+            >
+                Your cart is empty.
+            </div>
+
+
+            <div class="cart-summary">
+
+                <div class="cart-total-row">
+
+                    <span id="cartTotalLabel">
+                        Total
+                    </span>
+
+                    <strong id="cartTotal">
+                        €0.00
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="primary-button cart-checkout-button"
+                    id="checkoutButton"
+                    type="button"
+                >
+                    Checkout
+                </button>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+
+    <!-- Benachrichtigung -->
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+</body>
+
+</html>

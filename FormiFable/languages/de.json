@@ -1,0 +1,163 @@
+{
+    "meta": {
+        "title": "FormiFable | 3D-gedrucktes Spielzeug"
+    },
+
+    "announcement": "Kostenloser Versand ab 60 € · In kleinen Serien gefertigt",
+
+    "navigation": {
+        "shop": "Shop",
+        "about": "Über uns",
+        "contact": "Kontakt"
+    },
+
+    "hero": {
+        "eyebrow": "VERSPIELTES 3D-GEDRUCKTES SPIELZEUG",
+        "title": "Kleine Formen. Große Geschichten.",
+        "description": "Farbenfrohes 3D-gedrucktes Spielzeug zum Spielen, Sammeln und Erfinden neuer Geschichten.",
+        "button": "Spielzeug entdecken"
+    },
+
+    "categories": {
+        "animals": "Tiere",
+        "fidget": "Fidget-Spielzeug",
+        "gifts": "Kleine Geschenke",
+        "new": "Neue Produkte"
+    },
+
+    "products": {
+        "eyebrow": "UNSERE KOLLEKTION",
+        "title": "Finde deinen neuen kleinen Freund",
+        "description": "Kleine Figuren, verspielte Formen und verschiedene Farben.",
+
+        "items": {
+            "dragon": {
+                "name": "Flexi-Drache",
+                "shortDescription": "Ein beweglicher kleiner Drache zum Spielen und Sammeln.",
+                "details": "Der Flexi-Drache wird in einem Stück mit verbundenen beweglichen Teilen gedruckt. Er kann sich biegen und rollen, ohne dass er zusammengebaut werden muss. Die zusätzlichen Fotos zeigen andere Farbvarianten derselben Drachenform.",
+                "features": [
+                    "Beweglicher, flexibler Körper",
+                    "In kleinen Serien gedruckt",
+                    "In hellen und dunklen Farbvarianten erhältlich"
+                ]
+            },
+
+            "dinosaur": {
+                "name": "Mini-Dinosaurier",
+                "shortDescription": "Ein kleiner beweglicher Dinosaurier mit verspielten Details.",
+                "details": "Der Mini-Dinosaurier ist eine kompakte bewegliche Figur mit beweglichen Körperteilen. Durch seine kleine Größe kann er leicht mitgenommen, gesammelt oder verschenkt werden.",
+                "features": [
+                    "Kompakte Größe",
+                    "Bewegliche Körperteile",
+                    "Gut als kleines Geschenk"
+                ]
+            },
+
+            "octopus": {
+                "name": "Flexi-Oktopus",
+                "shortDescription": "Ein freundlicher Oktopus mit beweglichen Armen.",
+                "details": "Der Flexi-Oktopus besitzt mehrere bewegliche Arme und ein weiches, abgerundetes Design. Er eignet sich als verspieltes Schreibtischspielzeug, kleines Geschenk oder Sammelfigur.",
+                "features": [
+                    "Mehrere bewegliche Arme",
+                    "Runde freundliche Form",
+                    "Schreibtischspielzeug oder Sammelfigur"
+                ]
+            },
+
+            "cube": {
+                "name": "Formenwürfel",
+                "shortDescription": "Ein kompaktes Spielzeug mit drehbaren Formen.",
+                "details": "Der Formenwürfel ist ein kompaktes sensorisches Spielzeug mit beweglichen und drehbaren Elementen. Er wurde für neugierige Hände und ruhiges Spielen entwickelt.",
+                "features": [
+                    "Drehbare Elemente",
+                    "Kompakte Form",
+                    "Für ruhiges Spielen gemacht"
+                ]
+            }
+        }
+    },
+
+    "badges": {
+        "new": "NEU",
+        "soon": "BALD"
+    },
+
+    "buttons": {
+        "viewProduct": "Produkt ansehen",
+        "viewDetails": "Details ansehen",
+        "addToCart": "In den Warenkorb",
+        "continueShopping": "Weiter einkaufen"
+    },
+
+    "about": {
+        "eyebrow": "ÜBER FORMIFABLE",
+        "title": "Langsam gefertigt. Endlos bespielt.",
+        "description": "Unsere Spielzeuge werden in kleinen Serien hergestellt und vor dem Verpacken und Versenden einzeln kontrolliert.",
+
+        "features": {
+            "printed": {
+                "title": "3D-gedruckt",
+                "text": "In kleinen Mengen produziert."
+            },
+
+            "design": {
+                "title": "Verspieltes Design",
+                "text": "Entwickelt, um die Fantasie anzuregen."
+            },
+
+            "packed": {
+                "title": "Sorgfältig verpackt",
+                "text": "Jede Bestellung wird sorgfältig kontrolliert."
+            }
+        }
+    },
+
+    "newsletter": {
+        "eyebrow": "FORMIFABLE NEWS",
+        "title": "Neue Spielzeuge kommen",
+        "description": "Erhalte Neuigkeiten über neue Farben, Spielzeuge und Kollektionen.",
+        "placeholder": "Deine E-Mail-Adresse",
+        "button": "Abonnieren"
+    },
+
+    "modal": {
+        "category": "3D-GEDRUCKTES SPIELZEUG"
+    },
+
+    "productPage": {
+        "backToShop": "Zurück zum Shop",
+        "details": "Details",
+        "features": "Eigenschaften",
+        "categories": {
+            "printedToy": "3D-GEDRUCKTES SPIELZEUG",
+            "sensoryToy": "SENSORISCHES SPIELZEUG"
+        }
+    },
+
+    "cart": {
+        "button": "Warenkorb",
+        "empty": "Dein Warenkorb ist noch leer.",
+        "items": "Produkte im Warenkorb",
+        "modal": {
+            "title": "Dein Warenkorb",
+            "total": "Gesamt",
+            "checkout": "Zur Kasse",
+            "remove": "Entfernen",
+            "comingSoon": "Der Checkout kommt bald."
+        }
+    },
+
+    "messages": {
+        "addedToCart": "Das Produkt wurde zum Warenkorb hinzugefügt.",
+        "subscribed": "Vielen Dank für deine Anmeldung."
+    },
+
+    "footer": {
+        "description": "Verspieltes 3D-gedrucktes Spielzeug aus kleinen Serien.",
+        "shipping": "Versand",
+        "returns": "Rückgabe",
+        "imprint": "Impressum",
+        "privacy": "Datenschutz",
+        "copyright": "© 2026 FormiFable. Alle Rechte vorbehalten."
+    }
+}

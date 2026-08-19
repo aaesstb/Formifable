@@ -1,0 +1,163 @@
+{
+    "meta": {
+        "title": "FormiFable | 3D-Printed Toys"
+    },
+
+    "announcement": "Free shipping from €60 · Made in small batches",
+
+    "navigation": {
+        "shop": "Shop",
+        "about": "About",
+        "contact": "Contact"
+    },
+
+    "hero": {
+        "eyebrow": "PLAYFUL 3D-PRINTED TOYS",
+        "title": "Little shapes. Big stories.",
+        "description": "Colourful 3D-printed toys created for imagination, collecting and play.",
+        "button": "Discover our toys"
+    },
+
+    "categories": {
+        "animals": "Animals",
+        "fidget": "Fidget toys",
+        "gifts": "Small gifts",
+        "new": "New products"
+    },
+
+    "products": {
+        "eyebrow": "OUR COLLECTION",
+        "title": "Choose your new little friend",
+        "description": "Small toys, playful shapes and different colours.",
+
+        "items": {
+            "dragon": {
+                "name": "Flexi Dragon",
+                "shortDescription": "A flexible little dragon for playing and collecting.",
+                "details": "The Flexi Dragon is printed in one piece with connected movable parts, so it can bend and curl without assembly. The extra photos show different colour versions of the same dragon shape.",
+                "features": [
+                    "Flexible articulated body",
+                    "Printed in small batches",
+                    "Available in bright and dark colour finishes"
+                ]
+            },
+
+            "dinosaur": {
+                "name": "Mini Dinosaur",
+                "shortDescription": "A small movable dinosaur with playful details.",
+                "details": "The Mini Dinosaur is a compact articulated toy with movable body parts. Its small size makes it easy to carry, collect and give as a gift.",
+                "features": [
+                    "Compact size",
+                    "Movable body parts",
+                    "Good for small gifts"
+                ]
+            },
+
+            "octopus": {
+                "name": "Flexi Octopus",
+                "shortDescription": "A friendly octopus with movable arms.",
+                "details": "The Flexi Octopus has several movable arms and a soft rounded design. It can be used as a playful desk toy, a small gift or a collectible figure.",
+                "features": [
+                    "Several movable arms",
+                    "Rounded friendly shape",
+                    "Desk toy or collectible"
+                ]
+            },
+
+            "cube": {
+                "name": "Shape Cube",
+                "shortDescription": "A compact toy with rotating shapes.",
+                "details": "The Shape Cube is a compact sensory toy with movable and rotating elements. It is created for curious hands and quiet play.",
+                "features": [
+                    "Rotating elements",
+                    "Compact shape",
+                    "Made for quiet play"
+                ]
+            }
+        }
+    },
+
+    "badges": {
+        "new": "NEW",
+        "soon": "SOON"
+    },
+
+    "buttons": {
+        "viewProduct": "View product",
+        "viewDetails": "View details",
+        "addToCart": "Add to cart",
+        "continueShopping": "Continue shopping"
+    },
+
+    "about": {
+        "eyebrow": "ABOUT FORMIFABLE",
+        "title": "Made slowly. Played with endlessly.",
+        "description": "Our toys are created in small batches and checked individually before they are packed and shipped.",
+
+        "features": {
+            "printed": {
+                "title": "3D printed",
+                "text": "Produced in small quantities."
+            },
+
+            "design": {
+                "title": "Playful design",
+                "text": "Designed to inspire imagination."
+            },
+
+            "packed": {
+                "title": "Packed with care",
+                "text": "Every order is carefully checked."
+            }
+        }
+    },
+
+    "newsletter": {
+        "eyebrow": "FORMIFABLE NEWS",
+        "title": "New toys are coming",
+        "description": "Receive news about new colours, toys and collections.",
+        "placeholder": "Your email address",
+        "button": "Subscribe"
+    },
+
+    "modal": {
+        "category": "3D-PRINTED TOY"
+    },
+
+    "productPage": {
+        "backToShop": "Back to shop",
+        "details": "Details",
+        "features": "Features",
+        "categories": {
+            "printedToy": "3D-PRINTED TOY",
+            "sensoryToy": "SENSORY TOY"
+        }
+    },
+
+    "cart": {
+        "button": "Cart",
+        "empty": "Your cart is empty.",
+        "items": "Products in your cart",
+        "modal": {
+            "title": "Your cart",
+            "total": "Total",
+            "checkout": "Checkout",
+            "remove": "Remove",
+            "comingSoon": "Checkout is coming soon."
+        }
+    },
+
+    "messages": {
+        "addedToCart": "The product was added to your cart.",
+        "subscribed": "Thank you for subscribing."
+    },
+
+    "footer": {
+        "description": "Playful 3D-printed toys made in small batches.",
+        "shipping": "Shipping",
+        "returns": "Returns",
+        "imprint": "Imprint",
+        "privacy": "Privacy",
+        "copyright": "© 2026 FormiFable. All rights reserved."
+    }
+}

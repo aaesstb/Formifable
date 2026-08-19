@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Detailed FormiFable product page with photos and product information."
+    >
+
+    <title>FormiFable | Product</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <script
+        src="product.js"
+        defer
+    ></script>
+</head>
+
+<body>
+    <div
+        class="announcement"
+        data-i18n="announcement"
+    >
+        Free shipping from €60 · Made in small batches
+    </div>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a
+                class="logo"
+                href="index.html"
+                aria-label="FormiFable Home"
+            >
+                <img
+                    src="images/logo-transparent.png"
+                    alt="FormiFable logo"
+                >
+            </a>
+
+            <nav class="main-navigation">
+                <a
+                    href="index.html#products"
+                    data-i18n="navigation.shop"
+                >
+                    Shop
+                </a>
+
+                <a
+                    href="index.html#about"
+                    data-i18n="navigation.about"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#footer"
+                    data-i18n="navigation.contact"
+                >
+                    Contact
+                </a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="language-switcher">
+                    <button
+                        class="language-button active"
+                        type="button"
+                        data-language="en"
+                    >
+                        EN
+                    </button>
+
+                    <button
+                        class="language-button"
+                        type="button"
+                        data-language="de"
+                    >
+                        DE
+                    </button>
+                </div>
+
+                <button
+                    class="cart-button"
+                    id="cartButton"
+                    type="button"
+                >
+                    <span
+                        class="cart-button-text"
+                        data-i18n="cart.button"
+                    >
+                        Cart
+                    </span>
+
+                    <span
+                        class="cart-count"
+                        id="cartCount"
+                    >
+                        0
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-detail-section">
+            <div class="container">
+                <a
+                    class="back-link"
+                    href="index.html#products"
+                    id="backLink"
+                >
+                    Back to shop
+                </a>
+
+                <div class="product-detail-layout">
+                    <div class="product-gallery">
+                        <div class="product-gallery-main">
+                            <img
+                                id="productMainImage"
+                                src="images/toy-dragon.jpg"
+                                alt="Flexi Dragon"
+                            >
+                        </div>
+
+                        <div
+                            class="product-thumbnail-list"
+                            id="productThumbnails"
+                            aria-label="Product photos"
+                        ></div>
+                    </div>
+
+                    <article class="product-detail-info">
+                        <p
+                            class="eyebrow"
+                            id="productCategory"
+                        >
+                            3D-PRINTED TOY
+                        </p>
+
+                        <h1 id="productName">
+                            Flexi Dragon
+                        </h1>
+
+                        <p
+                            class="product-detail-lead"
+                            id="productShortDescription"
+                        >
+                            A flexible little dragon for playing and collecting.
+                        </p>
+
+                        <strong
+                            class="product-detail-price"
+                            id="productPrice"
+                        >
+                            €24.90
+                        </strong>
+
+                        <div
+                            class="product-detail-actions"
+                        >
+                            <button
+                                class="primary-button"
+                                id="addToCartButton"
+                                type="button"
+                                data-i18n="buttons.addToCart"
+                            >
+                                Add to cart
+                            </button>
+
+                            <a
+                                class="secondary-button"
+                                href="index.html#products"
+                                id="continueShoppingLink"
+                            >
+                                Continue shopping
+                            </a>
+                        </div>
+
+                        <div class="product-detail-panel">
+                            <h2 id="detailsTitle">
+                                Details
+                            </h2>
+
+                            <p id="productDetails">
+                                Detailed information about the product.
+                            </p>
+                        </div>
+
+                        <div class="product-detail-panel">
+                            <h2 id="featuresTitle">
+                                Features
+                            </h2>
+
+                            <ul id="productFeatures"></ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer
+        class="footer"
+        id="footer"
+    >
+        <div class="container footer-content">
+            <div>
+                <strong class="footer-logo">
+                    FormiFable
+                </strong>
+
+                <p data-i18n="footer.description">
+                    Playful 3D-printed toys made in small batches.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a
+                    href="index.html#products"
+                    data-i18n="navigation.shop"
+                >
+                    Shop
+                </a>
+
+                <a
+                    href="index.html#about"
+                    data-i18n="navigation.about"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#"
+                    data-i18n="footer.shipping"
+                >
+                    Shipping
+                </a>
+
+                <a
+                    href="#"
+                    data-i18n="footer.returns"
+                >
+                    Returns
+                </a>
+
+                <a
+                    href="#"
+                    data-i18n="footer.imprint"
+                >
+                    Imprint
+                </a>
+
+                <a
+                    href="#"
+                    data-i18n="footer.privacy"
+                >
+                    Privacy
+                </a>
+            </div>
+
+            <span data-i18n="footer.copyright">
+                © 2026 FormiFable. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    ></div>
+</body>
+
+</html>
