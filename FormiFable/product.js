@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
             price: 24.90,
             category: "printedToy",
             images: [
-                "images/toy-dragon.jpg",
-                "images/toy-coral.webp",
-                "images/toy-dark.jpg"
+                "./images/toy-dragon.jpg",
+                "./images/toy-coral.webp",
+                "./images/toy-dark.jpg"
             ]
         },
 
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             price: 18.90,
             category: "printedToy",
             images: [
-                "images/toy-dinosaur.jpeg"
+                "./images/toy-dinosaur.jpeg"
             ]
         },
 
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
             price: 21.90,
             category: "printedToy",
             images: [
-                "images/toy-octopus.jpeg"
+                "./images/toy-octopus.jpeg"
             ]
         },
 
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             price: 16.90,
             category: "sensoryToy",
             images: [
-                "images/toy-cube.jpg"
+                "./images/toy-cube.jpg"
             ]
         }
 
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
 
             const response =
-                await fetch(`languages/${language}.json`);
+                await fetch(`./languages/${language}.json`);
 
             if (!response.ok) {
                 throw new Error(`Could not load ${language}.json`);

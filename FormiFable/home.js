@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
 
             const response =
-                await fetch(`languages/${language}.json`);
+                await fetch(`./languages/${language}.json`);
 
 
             if (!response.ok) {

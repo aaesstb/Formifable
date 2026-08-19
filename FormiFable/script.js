@@ -7,22 +7,22 @@ document.addEventListener("DOMContentLoaded", function () {
     const productCatalog = {
 
         dragon: {
-            image: "images/toy-dragon.jpg",
+            image: "./images/toy-dragon.jpg",
             price: 24.90
         },
 
         dinosaur: {
-            image: "images/toy-dinosaur.jpeg",
+            image: "./images/toy-dinosaur.jpeg",
             price: 18.90
         },
 
         octopus: {
-            image: "images/toy-octopus.jpeg",
+            image: "./images/toy-octopus.jpeg",
             price: 21.90
         },
 
         cube: {
-            image: "images/toy-cube.jpg",
+            image: "./images/toy-cube.jpg",
             price: 16.90
         }
 
@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
 
             const response =
-                await fetch(`languages/${language}.json`);
+                await fetch(`./languages/${language}.json`);
 
 
             if (!response.ok) {
@@ -390,7 +390,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         modalDetailsLink.href =
-            `product.html?id=${productId}`;
+            `./product.html?id=${productId}`;
 
     }
 
